@@ -6,6 +6,21 @@ Page({
    */
   data: {
     loginTtile: "招聘",
+    usename: '',
+    sms: null
+  },
+  submit() {
+    console.log(123, this.data.usename, this.data.sms)
+  },
+  setUserName (e) {
+    this.setData({
+      usename: e.detail
+    })
+  },
+  setSms (e) {
+    this.setData({
+      sms: e.detail
+    })
   },
   pickerConfirm(e) {
     this.setData({
@@ -29,7 +44,7 @@ Page({
   },
 
   formSubmit(e) {
-    console.log("form发生了submit事件，携带1数据为：", e.detail.value);
+    console.log("form发生了submit事件，携带1数据为：", e.detail);
   },
 
   formReset(e) {
