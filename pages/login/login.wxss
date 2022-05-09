@@ -1,0 +1,4 @@
+/* pages/login/login.wxss */
+.loginTitle{
+  color: rgb(255, 200, 127);
+}
