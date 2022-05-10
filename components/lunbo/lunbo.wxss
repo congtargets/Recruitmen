@@ -1,0 +1,15 @@
+/* components/lunbo/lunbo.wxss */
+.index_swiper {
+  width: 100%;
+  margin: 0;
+}
+.imageContainer {
+  width: 100%;
+  height: 250rpx;
+}
+
+.img_box,
+.img_item {
+  width: 100%;
+  height: 100%;
+}

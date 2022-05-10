@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@vant/weapp": "^1.10.3"
+    "@vant/weapp": "^1.10.3",
+    "wx-promise-pro": "^3.2.4",
+    "wx-updata": "0.0.13"
   }
 }

@@ -1,5 +1,8 @@
 {
   "component": true,
   "navigationBarTitleText": "登录",
-  "usingComponents": {}
+  "usingComponents": {
+    "lunbo": "/components/lunbo/lunbo",
+    "foot": "/components/foot/foot"
+  }
 }

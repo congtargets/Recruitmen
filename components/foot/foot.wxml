@@ -1,0 +1,5 @@
+<!--components/foot/foot.wxml-->
+<view class="foot">
+  <button class="foot_button"><image src="../../utils/huatai.png" class="foot_img"></image>关于华泰</button>
+  <button class="foot_button"><image src="../../utils/callme.png" class="foot_img"></image>联系我们</button>
+</view>

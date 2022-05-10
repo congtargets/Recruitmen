@@ -1,0 +1,24 @@
+/* components/foot/foot.wxss */
+.foot{
+  position: fixed;
+  width: 100%;
+  bottom: 30rpx;
+  display: flex
+}
+.foot .foot_button{
+  line-height: 80rpx;
+  width: 50%;
+  height: 80rpx;
+  border-radius: 0;
+  font-size: 14px;
+  background-color: white;
+}
+.foot .foot_button::after{
+  border: none;
+}
+.foot_img{
+  margin-top: 10rpx;
+  margin-right: 10rpx;
+  width: 30rpx;
+  height: 30rpx;
+}

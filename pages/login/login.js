@@ -5,11 +5,19 @@ Page({
    * 页面的初始数据
    */
   data: {
+    currentIndex: 0,
+    swiperList: [
+      '../../utils/01.qqjay.webp',
+      '../../utils/02.1sucai.webp'
+    ],
     loginTtile: "招聘",
     usename: '',
     sms: null
   },
-  submit() {
+  longin() {
+    wx.reLaunch({
+      url: '../index/index',
+    })
     console.log(123, this.data.usename, this.data.sms)
   },
   setUserName (e) {
@@ -17,6 +25,7 @@ Page({
       usename: e.detail
     })
   },
+
   setSms (e) {
     this.setData({
       sms: e.detail

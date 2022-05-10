@@ -1,0 +1,10 @@
+<!--components/lunbo/lunbo.wxml-->
+<view class="index_swiper">
+  <swiper class="imageContainer" bindchange="handleChange" circular autoplay indicatorDots interval="4000">
+    <block wx:for="{{swiperList}}" wx:key="index">
+      <swiper-item class="img_box">
+        <image class="img_item" src="{{item}}"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>

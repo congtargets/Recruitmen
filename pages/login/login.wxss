@@ -1,4 +1,60 @@
 /* pages/login/login.wxss */
-.loginTitle{
+.loginTitle {
   color: rgb(255, 200, 127);
+}
+
+.login_box {
+  position: relative;
+  width: 80%;
+  height: 250rpx;
+  margin: 0 auto;
+  margin-top: 200rpx;
+  border: 1px solid #fcfcfc;
+  border-radius: 5rpx;
+  box-shadow: 1px 1px 0px 2px #888888;  
+}
+
+.phoneCs {
+  position: relative;
+  display: flex;
+  margin-top: 50rpx;
+  width: 100%;
+  height: 80rpx;
+}
+.passwordCs {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 80rpx;
+}
+.ps{
+  margin: 10rpx;
+  width: 50rpx;
+  height: 50rpx;
+}
+.input {
+  width: 55%;
+  height: 70rpx;
+  background-color: rgb(215, 223, 238);
+}
+.phoneCs .btn-d1{
+  padding: 0;
+  line-height: 60rpx;
+  width: 160rpx;
+  height: 60rpx;
+  margin-top: 5rpx;
+  margin-left: 10px;
+  font-size: 12px;
+  border-radius: 10rpx;
+  background-color: rgb(105,126,164);
+}
+.btn-d2{
+  padding: 0rpx;
+  line-height: 80rpx;
+  font-size: 18px;
+  width: 280rpx;
+  height: 80rpx;
+  margin-top: 100rpx;
+  border-radius: 10rpx;
+  background-color: rgb(105,126,164);
 }
